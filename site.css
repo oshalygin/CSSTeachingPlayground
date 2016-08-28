@@ -81,7 +81,7 @@ p {
     float: left;
 }
 
-.campaign--message {
+.campaign--container {
     padding: 1em;
     color: #777;
     font-size: 13px;
@@ -99,6 +99,74 @@ p {
     padding-left: 0.5em;
 }
 
-.campaign--input-donation {
-    padding: 0;
+
+.campaign--input-container {
+    position: relative;
+    width: 100%;
+    font-size: 1.2em;
 }
+
+
+.campaign-input--currency {
+    position: absolute;
+    top: 0.1em;
+    left: 0;
+    padding: 0.5em;
+    padding-left: 1.1em;
+    font-weight: bold;
+    line-height: 1.3;
+    color: #777;
+    content: "$"
+}
+
+.campaign--donation-input {
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1.3em;
+    font-weight: bold;
+    border: 1px solid #eaeaea;
+    border-radius: 0.2em;
+    width: 100px;
+    box-shadow: 0 0;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.3;
+    background-color: transparent;
+}
+
+.campaign--button {
+    float: right;
+    width: 100px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    line-height: 1.3;
+    border: 1px solid #eaeaea;
+    border-radius: 0.2em;
+}
+
+.campaign--donation-submit {
+    padding-top: 1.6em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 1.6em;
+    background-color: #1cbc2c;
+    box-shadow: 0 0;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.campaign--donation-question {
+    padding-left: 0.5em;
+    padding-top: 0.3em;
+}
+
+a {
+    text-decoration: none;
+    color: #20a1d4;
+    font-size: 13px;
+}
+
