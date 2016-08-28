@@ -1,0 +1,104 @@
+/* Global resets */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+  color: #424242;
+  line-height: 1.4;
+}
+
+
+/* Fonts */
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.container {
+  margin: 2em auto;
+  max-width: 630px;
+  text-align: center;
+}
+
+
+/* COLORS:
+  blue: #20A1D4;
+  green: #1CBC2C;
+  orange: #EF5F3C;
+  black: #424242;
+  grey: #777;
+  light grey: #eaeaea;
+*/
+
+
+/* Your CSS goes here */
+
+p {
+    margin: 0.5em;
+}
+
+.campaign {
+    font-size: 14px;
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    margin: 1em auto;
+    width: 303;
+}
+
+.campaign--tooltip {
+    color: #eaeaea;
+    position: relative;
+    padding: 1em;
+    margin-bottom: 1em;
+    background-color: #424242;
+    border-radius: 3px;
+}
+
+.campaign--tooltip:after {
+    position: absolute;
+    bottom: -0.5em;
+    right: 2em;
+    border-top: 0.8em solid #424242;
+    border-right: 0.8em solid transparent;
+    border-left: 0.8em solid transparent;
+    content: ""
+}
+
+.campaign--progress {
+    height: 1em;
+    border: 1px solid #eaeaea;
+    border-bottom: 0;
+}
+
+.campaign--progress-remainder {
+    background-color: #ef5f3c;
+    height: 1em;
+    width: 80%;
+    float: left;
+}
+
+.campaign--message {
+    padding: 1em;
+    color: #777;
+    font-size: 13px;
+    border: 1px solid #eaeaea;
+    text-align: left;
+}
+
+.campaign--message-emphasis {
+    color: #ef5f3c;
+    font-weight: bold;
+}
+
+.campaign--container-control {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+}
+
+.campaign--input-donation {
+    padding: 0;
+}
