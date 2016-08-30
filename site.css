@@ -1,28 +1,30 @@
 /* Global resets */
+
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
-  color: #424242;
-  line-height: 1.4;
+    font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
+    color: #424242;
+    line-height: 1.4;
 }
 
 
 /* Fonts */
+
 h1 {
-  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
-  font-size: 2.5em;
-  font-weight: bold;
+    font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+    font-size: 2.5em;
+    font-weight: bold;
 }
 
 .container {
-  margin: 2em auto;
-  max-width: 630px;
-  text-align: center;
+    margin: 2em auto;
+    max-width: 630px;
+    text-align: center;
 }
 
 
@@ -46,7 +48,7 @@ p {
     font-size: 14px;
     font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif;
     margin: 1em auto;
-    width: 303;
+    width: 270;
 }
 
 .campaign--tooltip {
@@ -99,13 +101,11 @@ p {
     padding-left: 0.5em;
 }
 
-
 .campaign--input-container {
     position: relative;
     width: 100%;
     font-size: 1.2em;
 }
-
 
 .campaign-input--currency {
     position: absolute;
@@ -127,7 +127,7 @@ p {
     font-weight: bold;
     border: 1px solid #eaeaea;
     border-radius: 0.2em;
-    width: 100px;
+    width: 105px;
     box-shadow: 0 0;
     font-family: inherit;
     font-size: 16px;
@@ -137,26 +137,41 @@ p {
 
 .campaign--button {
     float: right;
-    width: 100px;
+    width: 105px;
     padding-left: 0.5em;
     padding-right: 0.5em;
     padding-top: 0.8em;
     padding-bottom: 0.8em;
-    line-height: 1.3;
+    line-height: 2;
     border: 1px solid #eaeaea;
-    border-radius: 0.2em;
+    border-radius: 0.3em;
 }
 
+
 .campaign--donation-submit {
-    padding-top: 1.6em;
+    padding-top: 0.8em;
     padding-left: 0.5em;
     padding-right: 0.5em;
-    padding-bottom: 1.6em;
+    padding-bottom: 0.8em;
     background-color: #1cbc2c;
-    box-shadow: 0 0;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
     font-size: 13px;
     font-weight: bold;
     color: #ffffff;
+}
+
+.campaign--button-actionable {
+    display: inline-block;
+    font-weight: bold;
+    width: 125px;
+    line-height: 1.5;
+    color: #777;
+    background-color: #fcfcfc;
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.1);
+}
+.campaign--actions {
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .campaign--donation-question {
@@ -164,9 +179,18 @@ p {
     padding-top: 0.3em;
 }
 
+.campaign--button-left {
+    float: left;
+    padding-right: 0.5em;
+}
+
+.campaign--button-right {
+    float: right;
+    padding-left: 0.5em;
+}
+
 a {
     text-decoration: none;
     color: #20a1d4;
     font-size: 13px;
 }
-
